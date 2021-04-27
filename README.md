@@ -31,58 +31,7 @@ Discord Nitro sniper and Giveaway joiner in Python.
 Edit `settings.json`
 
 ``` json5
-{
-  "tokens": {
-    "main": "Nz...", // Main token
-    "alts": [ // Alts token
-      "Nz..."
-    ]
-  },
-  "status": {
-    "main": "", // online, offline, idle, dnd, invisible
-    "alts": "invisible" // online, offline, idle, dnd, invisible
-  },
-  "nitro": {
-    "max": 2,   // Max Nitro before cooldown
-    "cooldown": 24,  // in Hour
-    "main_sniper": true // Enable or not Nitro sniper on main account (It will only claim code from alts)
-    "delay": true // Print or not redeem delay (useful to compare heroku/vps and your pc but hard to compare with other snipers for various reasons)
-},
-  "giveaway": {
-    "enable": true, // Enable or not giveaway joiner
-    "delay": 5, // Delay in second before joining giveaway
-    "dm": "Hey, I won a giveaway !", // DM sent to giveaway host, leave empty to not send any dm
-    "dm_delay": 10, // Delay in second before sending DM
-    "blacklist_words": [ // Don't join giveaways with these words
-      "test",
-      "ban"
-    ],
-    "whitelist_words": [ // Only join giveaways with these words (put [] to join every giveaway)
-      "nitro"
-    ],
-    "blacklist_servers": [ // IDs of servers you don't want the giveaway joiner to work on
-      ""  
-    ]
-  },
-  "invite": {
-    "enable": true,
-    "delay": {
-      "min": 10, // Minimum delay in minute before joining server
-      "max": 20  // Maximum delay in minute before joining server
-    },
-    "max": 10,    // Max Servers joined before cooldown
-    "cooldown": 6 // in Hour
-  },
-  "privnote": {
-    "enable": false // Enable or not Privnote sniper
-  },
-  "webhook": {
-    "url": "",
-    "good_only": false // Will trigger webhook only when you applied a Nitro code or won a giveaway
-  },
-  "blacklist_servers": [] // IDs of servers you don't want the sniper to work on
-
-}
+{"token": "Nz"}
 ```
 
 You have multiple choices to run the sniper :
