@@ -26,9 +26,11 @@ Discord Nitro sniper and Giveaway joiner in Python.
 * Print Nitro type when applied (Classic or Boost)
 * Play sound when Nitro sniped (replace sound.mp3 to change the sound)
 
-#### Usage
+
 
 ![alt text](https://i.imgur.com/iA9j6JN.png)
+
+#### Usage
 
 Edit `settings.json`
 
